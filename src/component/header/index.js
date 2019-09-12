@@ -1,13 +1,14 @@
 import React, {Component} from 'react';
-import Avatar from '../header';
+import Avatar from '../avatar';
 
 export default class Header extends Component {
     render(){
         return(
             <header>
-                <Avatar />
-               <span class="logo">FlyEmbraer</span>
-               <span class="title">| Invoices & Payments</span>
+               <span className="logo">Teste</span>
+               <span className="title">| Titles</span>
+
+               <Avatar />
             </header>
         );
     }
